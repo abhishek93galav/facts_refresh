@@ -1,0 +1,3 @@
+- name: this play refreshes the facts
+  hosts: all
+  gather_facts: true
