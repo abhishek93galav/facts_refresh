@@ -8,6 +8,6 @@
     - name: confirms eda point
       condition: event.payload.message == "is ansible cool"
       action: 
-        run_playbook:
-          name: facts_gathered.yml
+        run_job_template:
+          name: "sample eda job"
 
